@@ -30,7 +30,7 @@ print(list[-1])
 
 #Using an F-string to access the first and second element print the string "COLORADO is south of WYOMING", matching the casing provided
 
-message = f"{list[1].upper()} is south of {list[0].upper()}"
+print(f"{list[1].upper()} is south of {list[0].upper()}")
 
 print("Part Two------------------------------------------------------------------------")
 #Append the following states to your list: Washington, Oregon, California and print your list
