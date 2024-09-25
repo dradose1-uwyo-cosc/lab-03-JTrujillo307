@@ -58,16 +58,16 @@ print(list)
 
 print("Part Three----------------------------------------------------------------------")
 #Temporarily sort your list, print it both sorted and unsorted 
-sorted(list)
 print(list)
 print(sorted(list))
 
 
+
 #Permanently sort your list in reverse order, printing it out
-list.sort()
+list.sort(reverse = True)
 print(list)
 
 
 #Using the reverse method reverse the list and print it
-list.sort(reverse = True)
+list.reverse()
 print(list)
